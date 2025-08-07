@@ -44,3 +44,11 @@
 // });
 
 // // We recommend installing an extension to run vitest tests.
+
+import { describe, it, expect } from 'vitest';
+
+describe('dummy', () => {
+  it('should be detected by Vitest', () => {
+    expect(true).toBe(true);
+  });
+});
