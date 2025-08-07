@@ -1,6 +1,8 @@
 import { renderHook, act } from '@testing-library/react';
 import { describe, it, expect } from 'vitest';
-import useCounter from './useCounter';
+// import useCounter from './useCounter';
+import useCounter from '../src/hooks/features/homepage/useCounter';
+// filepath: c:\Users\34376\Downloads\demo-se2-frontend\tests\useCounter.spec.ts
 
 describe('useCounter', () => {
   it('should initialize count to 0 and val to 1', () => {
